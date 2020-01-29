@@ -7,3 +7,8 @@ print("I am not apart of the function, sad!")
 print("These print statements will be printed first, becaused we have yet to call our fn")
 
 firstfunction()
+
+def prints_name(name):
+    print("How's it " + name)
+
+prints_name("BOBBBBY")
